@@ -1,0 +1,20 @@
+.questiontext {
+    color:cornsilk;
+    margin:0px;
+}
+
+img {
+    width: 300px;
+}
+
+button {
+    position:absolute;
+    top:100%;
+    text-align: center;
+    vertical-align: center;
+    background: cornsilk;
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+
+}
