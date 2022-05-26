@@ -121,8 +121,15 @@ const Question = () => {
             "../../images/112.png",
             "../../images/113.png",
             "../../images/114.png",
+            "../../images/116.png",
+            "../../images/117.png",
+            "../../images/118.png",
+            "../../images/119.png",
+            "../../images/120.png",
+            "../../images/121.png",
+            "../../images/122.png",
         ],
-        index : "../../images/1.png",
+        index : "../../images/120.png",
         
 
     }
