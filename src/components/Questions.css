@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
 .questiontext {
     color:cornsilk;
     margin:0px;
@@ -8,13 +10,26 @@ img {
 }
 
 button {
-    position:absolute;
-    top:100%;
+    margin-top:10px;
     text-align: center;
     vertical-align: center;
     background: cornsilk;
     color:black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "Kdam Thmor Pro", sans-serif;
     font-size: 30px;
 
+}
+
+.cartecontainer {
+    display:flex;
+    flex-direction: column-reverse;
+}
+
+.btnhome {
+    margin: 0px 10px 10px 0px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    width:fit-content;
+    padding-top:10px;
+    border-radius: 40px;
+    font-size:20px;
 }

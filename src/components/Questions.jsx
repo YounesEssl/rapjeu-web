@@ -1,5 +1,8 @@
 import "./Questions.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 const Question = () => {
   const tab = {
@@ -165,9 +168,12 @@ const Question = () => {
 
   const [index, setindex] = useState(tab);
   return (
-    <div>
+    <div className="cartecontainer">
       <button onClick={() => Random()}> CHANGER DE CARTE </button>
-      <img src={index.index} alt="test" />
+      <img src={index.index} alt="carte" />
+      <Link className="btnhome" to="/" style={{ color: 'inherit', textDecoration: 'inherit'}}>
+      <FontAwesomeIcon className="arrowdown" icon={ faArrowLeft } />  Return Home
+      </Link>
     </div>
   );
 };

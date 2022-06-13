@@ -11,7 +11,7 @@ export default function Home() {
         <div className="firstcontainer">
 
           <div className="titlecontainer">
-            <p className="title">KRap Game</p>
+            <p className="title">SRap Game</p>
           </div>
 
           <div className="subtitle">
