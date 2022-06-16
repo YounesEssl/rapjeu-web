@@ -17,7 +17,6 @@ export default function Home() {
 
           <div className="cardcontainer">
                 <Card name="Rapmon"></Card>
-                <Card name="Comming soon"></Card>
           </div>
 
         </div>
