@@ -10,10 +10,6 @@ export default function Home() {
 
         <div className="firstcontainer">
 
-          <div className="titlecontainer">
-            <p className="title">SRap Game</p>
-          </div>
-
           <div className="subtitle">
             <p>Select Game</p>
             <FontAwesomeIcon className="arrowdown" icon={ faArrowDown } />
