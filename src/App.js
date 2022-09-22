@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 import Question from "./components/Questions";
-import DuelRapmon from "./components/DuelRapmon";
+import Fifa from "./components/Fifa";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/Questions" element={<Question />} />
-              <Route path="/Duel" element={<DuelRapmon />} />
+              <Route path="/Fifa" element={<Fifa />} />
             </Routes>
           </BrowserRouter>
         </div>
