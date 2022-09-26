@@ -1,5 +1,6 @@
 body {
-    background-color: #2ec0f9;
+    background-image: url("./assets/fond.jpg");
+    background-size:100%;
 }
 main {
     width: 100%;
