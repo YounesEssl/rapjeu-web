@@ -184,7 +184,7 @@ const Question = () => {
       "../../fifa/176.png",
 
     ],
-    index: "../../fifa/1.png",
+    index: "../../fifa/carte1.png",
   };
 
   function Random() {
